@@ -1,0 +1,264 @@
+:root {
+    --mobile: 375px;
+    --desktop: 1440px;
+    --softorange: hsl(35, 77%, 62%);
+    --softred: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --darkgrayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+    --fuente: "Inter", sans-serif;
+  }
+  .logo.svg{ 
+    padding: 5px;
+
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--fuente);
+  }
+  /* HEADER */
+  header {
+      margin: 0 10%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  header img {
+      padding-top: 10px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+  }
+  
+  .m_menu {
+    float: right;
+    width: 50%;
+    height: 30px;
+  }
+  .m_menu ul {
+    list-style: none;
+    color: black;
+  }
+  .m_menu ul li {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+  }
+  .m_menu ul li a {
+    color: #4f4c57;
+    text-decoration: none;
+  }
+  .m_menu ul li a:hover {
+    color: #d47172;
+    cursor: pointer;
+  }
+  
+  /* SECTION */
+  .contenido {
+    margin: 5% 10%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contenido section {
+    width: 70%;
+    float: left;
+    /* display: flex; */
+  }
+  
+  .contenido section img {
+    width: 100%;
+  }
+  
+  .contenido .titulo {
+    width: 50%;
+    float: left;
+  }
+  
+  .contenido .titulo h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 10px 20px 5px 0px;
+  }
+  
+  .contenido .subcontenido {
+    width: 50%;
+    float: left;
+  }
+  
+  .contenido .subcontenido p {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 30px;
+  }
+  
+  .contenido .subcontenido button {
+    background-color: var(--softred);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 15px 40px;
+    font-size: 12px;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  .contenido .subcontenido button:hover {
+    background-color: var(--very-dark-blue);
+  }
+  .contenido aside {
+    width: 30%;
+  }
+  
+  /* ASIDE */
+  .aside {
+    background-color: var(--very-dark-blue);
+    width: 300px;
+    padding: 15px;
+    align-self: flex-start;
+  }
+  .aside__titulo {
+    color: var(--softorange);
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+  .aside__texto {
+    border-bottom: 1px solid var(--grayish-blue);
+    margin-bottom: 40px;
+  }
+  .aside__texto h4 {
+    color: var(--off-white);
+    cursor: pointer;
+  }
+  
+  .aside__texto h4:hover {
+    color: var(--softorange);
+  }
+  .aside__texto p {
+    color: var(--grayish-blue);
+  }
+  
+  /* FOOTER */
+  
+  .noticias {
+    margin: 5% 10%;
+  }
+  
+  .noticias-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .noticias-ind {
+    width: 28%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .noticias-ind img {
+    width: 100px;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .noticias-cont .noticias-ind > .noticias-texto {
+    width: 60%;
+    color: #949494;
+  }
+  
+  .noticias-cont .noticias-ind > .noticias-texto h2 {
+    font-weight: 300;
+    padding-top: 1px;
+    color: rgb(136, 136, 136);
+  }
+  
+  .noticias-cont .noticias-ind > .noticias-texto h3 {
+    font-weight: 300;
+    padding-top: 1px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .noticias-cont .noticias-ind > .noticias-texto h3:hover {
+    color: var(--softred);
+  }
+  
+  .noticias-cont .noticias-ind > .noticias-texto p {
+    font-weight: 100;
+    padding-top: 1px;
+  }
+  
+
+  footer{
+display: flex;
+justify-content: space-around;
+}
+
+
+/* *{
+font-family: 'Inter';
+} */
+footer div ul li h2{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:#dad7cd;
+text-align: center;
+}
+.card-body{
+display: flex;
+justify-content: space-around;
+}
+
+#text{
+flex-direction: column;
+text-align: center;
+}
+a{
+color:black;
+}
+a:hover{
+color: rgb(21, 21, 188);
+}
+
+
+
+
+/* *{  imagenes pequeñas y texto en cuadrados  } */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    
+    /* *{
+    font-family: 'Inter';
+    } */
+    footer div ul li h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#dad7cd;
+    text-align: center;
+    }
+    .card-body{
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    #text{
+    flex-direction: column;
+    text-align: center;
+    }
+    a{
+    color:black;
+    }
+    a:hover{
+    color: rgb(21, 21, 188);
+    }
